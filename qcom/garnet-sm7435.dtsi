@@ -76,11 +76,6 @@
 		fpvdd-supply = <&L28B>;
 		status = "ok";
 	};
-	xiaomi_touch {
-		compatible = "xiaomi-touch";
-		status = "ok";
-		touch,name = "xiaomi-touch";
-	};
 	touch_vddio: touch_vddio {
 		compatible = "regulator-fixed";
 		regulator-name = "touch_vddio";
